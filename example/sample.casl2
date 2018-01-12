@@ -1,0 +1,5 @@
+MAIN START
+     LD	GR1,=10 ; GR1に10を代入
+HOGE LD GR2,=#ff ; GR2に0xffを代入
+     LD GR2,GR1 ; GR1にGR2を代入
+     END     
